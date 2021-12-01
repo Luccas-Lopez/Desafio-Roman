@@ -1,16 +1,9 @@
-import React, {Component} from 'react';
-import {
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-  Image,
-  ImageBackground,
-  TextInput,
-} from 'react-native';
+
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+import React,{Component} from 'react';
+import {StyleSheet, ImageBackground, View, Image, TextInput, TouchableOpacity, Text} from 'react-native'
 import api from '../services/api';
 
 export default class Login extends Component {
@@ -39,7 +32,7 @@ export default class Login extends Component {
 
     if (resposta.status == 200){
         console.warn('Login Realizado');
-        this.props.navigation.navigate('');
+        this.props.navigation.navigate('Listar');
     
     }
 
@@ -95,7 +88,7 @@ export default class Login extends Component {
 
 const styles = StyleSheet.create({
     main: {
-        // flex: 1,
+        flex: 1,
         //backgroundColor: '#F1F1F1', retirar pra nao ter conflito.
         justifyContent: 'center',
         alignItems: 'center',
