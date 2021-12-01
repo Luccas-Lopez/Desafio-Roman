@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanDesafioWebAPI", "RomanDesafioWebAPI\RomanDesafioWebAPI.csproj", "{664B6055-BB41-424D-AA6F-9EA4904A7542}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{664B6055-BB41-424D-AA6F-9EA4904A7542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664B6055-BB41-424D-AA6F-9EA4904A7542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664B6055-BB41-424D-AA6F-9EA4904A7542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664B6055-BB41-424D-AA6F-9EA4904A7542}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6C4BB5E-BAE9-49E9-BC86-56629379ECF4}
+	EndGlobalSection
+EndGlobal
